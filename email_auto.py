@@ -1,9 +1,10 @@
+import codecs
 import datetime
+from email.mime.text import MIMEText
+import os
 import smtplib
 import ssl
-from email.mime.text import MIMEText
 import sys
-import codecs
 # To prevent encoding error.
 sys.stdout=codecs.getwriter("utf-8")(sys.stdout)
 
